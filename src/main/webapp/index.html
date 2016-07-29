@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  Sushmita 
+<body>
+<script>
+function add()
+{
+var n1=document.getElementById("num1").value;
+var n2=document.getElementById("num2").value;
+var sum= +n1 + +n2;
+  document.getElementById("result").innerText=sum;
+alert("The sum is " + sum);
+}
+</script>
+<form>
+Enter number 1 : <input type="number" id="num1">
+Enter number 2 : <input type="number" id="num2">
+<input type="button" value="Add" onclick="add();">
+  </form>
+  <div id="result">
+</div>
+</body>
+</html>
